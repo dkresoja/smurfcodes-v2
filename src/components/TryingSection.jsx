@@ -1,8 +1,9 @@
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export default function TryingSection() {
   return (
-    <section className=" bg-gray-900  text-white py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 lg:px-16 relative overflow-hidden w-full">
+    <section className=" bg-gradient-to-b  to-black  text-white py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 lg:px-16 relative overflow-hidden w-full">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-around xl:w-4/5">
         <div className="md:w-1/2 xl:ml-20 mb-8 md:mb-0 pr-0 md:pr-8  xl:shadow-sky-800 xl:shadow-xl xl:px-4 xl:py-4">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 leading-tight">
@@ -27,9 +28,11 @@ export default function TryingSection() {
         </div>
         <div className="md:w-1/2 flex justify-center  md:justify-end  ">
           <div className="relative  sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 ">
-            <img
+            <Image
+              width={550}
+              height={550}
               src="/photos/GW.png"
-              className="border-b-4 rounded-lg border-cyan-600 "
+              className="border-b-4 rounded-lg border-cyan-600  "
               alt="Person holding gift boxes"
             />
           </div>

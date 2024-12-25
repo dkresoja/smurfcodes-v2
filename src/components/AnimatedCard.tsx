@@ -61,7 +61,9 @@ export function AnimatedCard({ card }: { card: PromoCard }) {
             variant="secondary"
             className="bg-slate-300 border-cyan-500 hover:bg-cyan-600 hover:text-white text-cyan-900 font-bold py-2 px-4 rounded-xl transition-all duration-400 "
           >
-            Take instant
+            <a href={card.site} target="_blank" rel="noopener noreferrer">
+              Take instant
+            </a>
           </Button>
         </CardContent>
       </Card>

@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 
 export default function Hero() {
@@ -52,10 +53,12 @@ export default function Hero() {
       </div>
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
-      <img
+      <Image
         src="/photos/newbackground.png"
         alt="CS:GO Background"
         className="absolute inset-0 w-full h-full object-cover"
+        width={1920}
+        height={1080}
       />
     </section>
   );

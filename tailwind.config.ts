@@ -11,6 +11,8 @@ export default {
     extend: {
       backgroundImage: {
         "hero-pattern": "url('/photos/bg1card.png')",
+        "half-cyan-white": "linear-gradient(135deg, #06b6d4 50%, white 50%)",
+        "half-white-cyan": "linear-gradient(135deg, black 45%, #cyan-900 55%)",
       },
       keyframes: {
         "bounce-subtle": {

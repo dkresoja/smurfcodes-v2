@@ -1,11 +1,8 @@
 "use client";
-import HeroPromoCodes from "@/components/HeroPromoCodes";
-import Navbar from "@/components/Navbar";
-import PromoCodesHow from "@/components/PromoCodesHow";
-
-import AllPromoCodes from "@/components/allPromoCodes";
+import BlogLanding from "@/components/BlogLanding";
+import BlogHeader from "@/components/BlogHeader";
 import { useState } from "react";
-
+import Navbar from "@/components/Navbar";
 export default function PromoCodesPage() {
   const [click, setClick] = useState(false);
   const handleClickHamburger = () => {
@@ -14,10 +11,12 @@ export default function PromoCodesPage() {
   return (
     <main className="min-h-screen bg-gray-900 text-white">
       <Navbar handleClickHamburger={handleClickHamburger} click={click} />
-      <HeroPromoCodes />
+      <BlogHeader />
+      <div className="w-3/4 flex">
+        <hr></hr>
+      </div>
 
-      <AllPromoCodes />
-      <PromoCodesHow />
+      <BlogLanding />
     </main>
   );
 }

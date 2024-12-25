@@ -1,11 +1,12 @@
+import Image from "next/image";
 import MobileMenu from "./MobileMenu";
 import { Button } from "./ui/button";
 const NAVBAR_DATA = {
   links: [
     { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
-    { name: "Services", href: "/services" },
-    { name: "Contact", href: "/contact" },
+    { name: "Promo codes", href: "/promo-codes" },
+    { name: "Giveaways", href: "/giveaway" },
+    { name: "Blog", href: "/blog" },
   ],
 };
 
@@ -13,10 +14,12 @@ function Navbar({ handleClickHamburger, click }) {
   return (
     <div className="w-full h-26 absolute top-0 py-2 text-white z-20 flex justify-around max-lg:justify-between">
       <div className="w-auto flex justify-start items-center">
-        <img
+        <Image
           src="/photos/new-logo1.png"
           className="w-18 h-14"
           alt="SharkCodes Logo"
+          width={110}
+          height={250}
         />
         <span className="flex font-bold text-2xl">
           <p className="text-cyan-500">Shark</p>

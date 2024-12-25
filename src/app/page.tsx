@@ -7,6 +7,7 @@ import { useState } from "react";
 import FeaturedCodes from "@/components/FeaturedCodes";
 import Blog from "@/components/Blog";
 import Safety from "@/components/Safety";
+import TextSection from "@/components/TextSection";
 
 export default function Home() {
   const [click, setClick] = useState(false);
@@ -20,6 +21,7 @@ export default function Home() {
       <Safety />
       <FeaturedCodes />
       <TryingSection />
+      <TextSection />
       <Blog></Blog>
 
       <Footer />

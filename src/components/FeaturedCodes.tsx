@@ -42,7 +42,7 @@ const promoCards: PromoCard[] = [
 
 export default function PromoCarousel() {
   return (
-    <div className="w-full px-4 py-8 xl:pt-0 bg-gradient-to-b xl:pb-20 from-black to-gray-900 mx-auto xl:flex xl:justify-center">
+    <div className="w-full px-4 py-8 xl:pt-0  xl:pb-20 bg-black  mx-auto xl:flex xl:justify-center">
       <div className="xl:w-2/3">
         <span className="text-3xl xl:text-4xl xl:mb-12 font-bold text-white mb-6 mt-12 px-4 flex gap-2">
           <h2>Our</h2>
