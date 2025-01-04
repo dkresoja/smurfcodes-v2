@@ -8,44 +8,56 @@ export default function Footer() {
       { name: "Home", href: "/" },
       { name: "Promo codes", href: "/contact" },
       { name: "Giveaways", href: "/about" },
-
       { name: "Blog", href: "/blog" },
     ],
   };
 
   return (
-    <footer className="bg-black py-8 flex flex-col items-center ">
-      <div className="flex items-center justify-between w-4/5">
-        <div className="flex items-center">
+    <footer className="bg-black py-6 flex flex-col items-center border-t-2 border-slate-800">
+      {/* Navigacija */}
+
+      {/* Logo i 18+ */}
+      <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl px-4 gap-12">
+        {/* Logo */}
+        <div className="flex items-center mr-10 ">
           <Image
             src="/photos/new-logo1.png"
             alt="Sharkcodes logo"
-            width={70}
-            height={50}
+            width={50}
+            height={40}
           />
-          <span className="flex font-bold text-lg">
-            {" "}
+          <span className="flex font-bold text-lg ml-2">
             <h2 className="text-cyan-500">Shark</h2>
             <h2>Codes</h2>
           </span>
         </div>
-        <div className="flex gap-6 sm:gap-2 text-lg">
+        <nav className="flex flex-wrap justify-center gap-4  md:mb-0 w-full px-4 sm:justify-center md:gap-8 max-w-4xl">
           {NAVBAR_DATA.links.map((site, i) => (
             <Link
-              className="xl:text-2xl lg:text-l md:text-l sm:text-sm text-nowrap mx-2"
               key={i}
               href={site.href}
+              className="text-gray-300 hover:text-cyan-500 text-md sm:text-base whitespace-nowrap font-bold"
             >
               {site.name}
             </Link>
           ))}
-        </div>
+        </nav>
+        {/* Ikona 18+ */}
         <div className="flex items-center">
-          <Image src="/photos/18+.png" width={140} height={70} alt="Gambling" />
+          <Image
+            src="/photos/18+.png"
+            alt="18+ Icon"
+            width={100}
+            height={50}
+            className="max-w-[80px]"
+          />
         </div>
       </div>
-      <div className="text-center">
-        <p className="text-gray-400">2024C smurfcodes.com</p>
+      {/* Donji deo */}
+      <div className="text-center mt-8">
+        <p className="text-gray-400 text-sm sm:text-xs">
+          © 2024 Sharkcodes.com
+        </p>
       </div>
     </footer>
   );

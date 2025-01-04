@@ -19,9 +19,14 @@ export default {
           "0%, 100%": { transform: "translateY(0)" },
           "50%": { transform: "translateY(-5px)" },
         },
+        textColorChange: {
+          "0%, 100%": { color: "#0891b2" }, // Cyan
+          "50%": { color: "#06b6d4" }, // Darker Cyan
+        },
       },
       animation: {
-        "bounce-subtle": "bounce-subtle 2s infinite",
+        "text-gradient": "textColorChange 3s ease-in-out infinite",
+        "bounce-subtle": "bounce-subtle 1s infinite",
       },
       fontFamily: {
         palanquin: ["Palanquin", "sans-serif"],

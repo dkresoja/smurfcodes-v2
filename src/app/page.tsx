@@ -15,15 +15,14 @@ export default function Home() {
     setClick(!click);
   };
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main className="min-h-screen bg-black text-white ">
       <Navbar handleClickHamburger={handleClickHamburger} click={click} />
       <Hero />
       <Safety />
       <FeaturedCodes />
       <TryingSection />
       <TextSection />
-      <Blog></Blog>
-
+      <Blog />
       <Footer />
     </main>
   );

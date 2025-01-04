@@ -22,7 +22,7 @@ const BlogLanding = () => {
                 key={i}
                 className="group h-full w-full overflow-hidden rounded-lg border-4  transition-all hover:shadow-lg bg-transparent border-cyan-900 hover:border-cyan-500"
               >
-                <Link href="#" prefetch={false}>
+                <Link href={post.url} prefetch={false}>
                   <div className="relative aspect-[4/3] overflow-hidden">
                     <Image
                       src={post.img}
