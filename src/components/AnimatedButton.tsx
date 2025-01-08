@@ -23,13 +23,16 @@ export function AnimatedButton({ children, className }: AnimatedButtonProps) {
       }
     );
 
-    if (buttonRef.current) {
-      observer.observe(buttonRef.current);
+    // Napravimo lokalnu kopiju buttonRef.current
+    const currentRef = buttonRef.current;
+
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (buttonRef.current) {
-        observer.unobserve(buttonRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
   }, []);

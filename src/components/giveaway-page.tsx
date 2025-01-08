@@ -6,43 +6,11 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import {
-  CheckCircle2,
-  AlertCircle,
-  ExternalLink,
-  Trophy,
-  User,
-  Gift,
-} from "lucide-react";
-import Link from "next/link";
+import { CheckCircle2, AlertCircle, ExternalLink } from "lucide-react";
+
 import { CopyButton } from "@/components/copy-button";
 
 export default function GiveawayPage() {
-  const recentGiveaways = [
-    {
-      name: "AWP | Asiimov",
-      date: "2024-12-20",
-      status: "Completed",
-      winner: "Player123",
-    },
-    {
-      name: "Karambit | Fade",
-      date: "2024-12-18",
-      status: "Completed",
-      winner: "GamerPro",
-    },
-    {
-      name: "AK-47 | Vulcan",
-      date: "2024-12-15",
-      status: "Ongoing",
-    },
-    {
-      name: "M4A4 | Howl",
-      date: "2024-12-10",
-      status: "Completed",
-      winner: "CS2Master",
-    },
-  ];
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
     hours: 0,

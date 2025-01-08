@@ -7,7 +7,7 @@ const PromoCodesHow = () => {
         <div className="">
           {" "}
           <span className="flex gap-8 pb-10">
-            <h2 className="xl:text-7xl font-extrabold text-cyan-500">//</h2>
+            <h2 className="xl:text-7xl font-extrabold text-cyan-500">{"//"}</h2>
             <h2 className="xl:text-7xl">How to apply promo codes</h2>
           </span>
           <span className="">
@@ -54,7 +54,7 @@ const PromoCodesHow = () => {
         </div>
         <div>
           <span className="flex gap-8 pb-10">
-            <h2 className="xl:text-7xl font-extrabold text-cyan-500">//</h2>
+            <h2 className="xl:text-7xl font-extrabold text-cyan-500">{"//"}</h2>
             <h2 className="xl:text-7xl">Promo Code Safety</h2>
           </span>
           <span className="">
@@ -73,7 +73,7 @@ const PromoCodesHow = () => {
         </div>
         <div>
           <span className="flex gap-8 pb-10">
-            <h2 className="xl:text-7xl font-extrabold text-cyan-500">//</h2>
+            <h2 className="xl:text-7xl font-extrabold text-cyan-500">{"//"}</h2>
             <h2 className="xl:text-7xl">How to Get Free CS:GO Skins</h2>
           </span>
           <span className="">
@@ -124,7 +124,7 @@ const PromoCodesHow = () => {
         </div>
         <div>
           <span className="flex gap-8 pb-10">
-            <h2 className="xl:text-7xl font-extrabold text-cyan-500">//</h2>
+            <h2 className="xl:text-7xl font-extrabold text-cyan-500">{"//"}</h2>
             <h2 className="xl:text-7xl">How to Open Free CS:GO Cases</h2>
           </span>
           <span className="">
@@ -159,7 +159,7 @@ const PromoCodesHow = () => {
         </div>
         <div>
           <span className="flex gap-8 pb-10">
-            <h2 className="xl:text-7xl font-extrabold text-cyan-500">//</h2>
+            <h2 className="xl:text-7xl font-extrabold text-cyan-500">{"//"}</h2>
             <h2 className="xl:text-7xl">What is CS:GO Gambling?</h2>
           </span>
           <span className="">
