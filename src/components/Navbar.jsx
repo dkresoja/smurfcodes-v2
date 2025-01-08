@@ -1,6 +1,10 @@
+"use client";
+
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import MobileMenu from "./MobileMenu";
 import { Button } from "./ui/button";
+
 const NAVBAR_DATA = {
   links: [
     { name: "Home", href: "/" },
@@ -11,8 +15,31 @@ const NAVBAR_DATA = {
 };
 
 function Navbar({ handleClickHamburger, click }) {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 10;
+      if (isScrolled !== scrolled) {
+        setScrolled(isScrolled);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [scrolled]);
+
   return (
-    <div className="w-full h-26 absolute top-0 py-2 text-white z-20 flex justify-around max-lg:justify-between">
+    <div
+      className={`w-full h-26 top-0 py-2 text-white z-20 flex justify-around max-lg:justify-between fixed transition-all duration-500 ${
+        scrolled
+          ? " bg-black/65 backdrop-blur-[0.60vh]  border-cyan-800  "
+          : "bg-transparent border-b-0"
+      }`}
+    >
       <div className="w-auto flex justify-start items-center">
         <Image
           src="/photos/new-logo1.png"

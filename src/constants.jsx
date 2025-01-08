@@ -6,9 +6,9 @@ const NAVBAR_DATA = {
   },
   links: [
     { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
     { name: "Promo Codes", href: "/promo-codes" },
-    { name: "Contact", href: "/contact" },
+    { name: "Giveaways", href: "/giveaway" },
+    { name: "Blog", href: "/blog" },
   ],
 };
 

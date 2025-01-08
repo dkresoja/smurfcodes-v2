@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function BlogPromo() {
   return (
@@ -11,20 +12,26 @@ export default function BlogPromo() {
             <br />
             <span className="text-cyan-400">Exclusive</span> Content
           </h2>
-          <p className="text-gray-400 mb-6">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus
-            officiis autem voluptatem eius, labore soluta minima optio aliquid
-            maxime cumque debitis quae. Dolorem doloremque sequi nam blanditiis?
-            Dolores quisquam earum a doloremque ipsum vel dolorem fugit
-            obcaecati possimus repellat! Molestiae enim voluptates culpa tenetur
-            fuga quas illum ipsum eligendi labore.
-          </p>
-          <Button
-            variant="secondary"
-            className="bg-cyan-500 hover:bg-gray-800 text-white font-bold py-2 px-6 rounded"
-          >
-            Giveaways
-          </Button>
+          <div className="text-gray-400 mb-6 font-semibold">
+            <p className="mb-2">
+              Dive into the world of <strong>CS:GO</strong> with our exclusive
+              blog, packed with insights about CS:GO cases, the latest updates
+              on CSGO all gloves, tips to make the most of gambling CS:GO
+              strategies and many more.
+            </p>
+            <p className="mb-6">
+              Whether you’re a skin collector or a dedicated player, our blog
+              covers everything you need to know about{" "}
+              <strong>CSGO skin</strong> trends and strategies. Don’t miss
+              out—explore now and take your CS:GO experience to the next level!
+            </p>
+          </div>
+
+          <Link href="/blog" passHref>
+            <Button className="bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded">
+              Our Blog
+            </Button>
+          </Link>
         </div>
         <div className="md:w-1/2 xl:w-1/2 flex justify-center  md:justify-end  ">
           <div className="relative sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 ">

@@ -59,11 +59,17 @@ export function AnimatedCard({ card }: { card: PromoCard }) {
           <BouncingArrow />
           <Button
             variant="secondary"
-            className="bg-slate-300 border-cyan-500 hover:bg-cyan-600 hover:text-white text-cyan-900 font-bold py-2 px-4 rounded-xl transition-all duration-400 "
+            className="bg-slate-300 border-cyan-500 hover:bg-cyan-600 hover:text-white text-cyan-900 font-bold py-2 px-4 rounded-xl transition-all duration-400"
+            onClick={() => {
+              // Proveriti da li je card.site definisan i nije prazan
+              if (card.site) {
+                window.open(card.site, "_blank");
+              } else {
+                console.error("Promo site not available");
+              }
+            }}
           >
-            <a href={card.site} target="_blank" rel="noopener noreferrer">
-              Take instant
-            </a>
+            Take instant
           </Button>
         </CardContent>
       </Card>

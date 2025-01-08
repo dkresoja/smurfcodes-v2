@@ -8,10 +8,12 @@ import {
 import { AnimatedCard } from "@/components/AnimatedCard";
 import { AnimatedButton } from "@/components/AnimatedButton";
 import { PromoCard } from "@/types/PromoCard";
+import Link from "next/link";
 
 const promoCards: PromoCard[] = [
   {
     id: 1,
+    site: "https://plg.bet/?r=CS2FR",
     logo: "/photos/site-logos/csgopolygonlogo.png",
     title: "FREE 1000 COINS & FREE RAKEBACK",
     promoCode: "CS2FR",
@@ -19,6 +21,7 @@ const promoCards: PromoCard[] = [
   },
   {
     id: 2,
+    site: "https://csgoempire.com/r/CS2FR",
     logo: "/photos/site-logos/csgoempire.png",
     title: "FREE SKINS & FREE CASES NO DEPOSIT",
     promoCode: "CS2FR",
@@ -26,17 +29,19 @@ const promoCards: PromoCard[] = [
   },
   {
     id: 3,
+    site: "https://rollbit.com/referral/CS2FR",
     logo: "/photos/site-logos/rollbit.png",
     title: "FREE COINS NO DEPOSIT REQUIRED",
     promoCode: "CS2FR",
-    validUntil: "Valid til 2024",
+    validUntil: "Valid as today",
   },
   {
     id: 4,
+    site: "https://csgoroll.com/r/PAXFUN",
     logo: "/photos/site-logos/csgoroll.png",
     title: "3 FREE CASES & 5% DEPOSIT BONUS",
     promoCode: "PAXFUN",
-    validUntil: "Valid til 2024",
+    validUntil: "Valid as today",
   },
 ];
 
@@ -69,9 +74,11 @@ export default function PromoCarousel() {
           </CarouselContent>
         </Carousel>
         <div className="mt-6 text-center">
-          <AnimatedButton className="bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded">
-            See more
-          </AnimatedButton>
+          <Link href="/promo-codes" passHref>
+            <AnimatedButton className="bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded">
+              See more
+            </AnimatedButton>
+          </Link>
         </div>
       </div>
     </div>
