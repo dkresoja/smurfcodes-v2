@@ -8,6 +8,7 @@ import FeaturedCodes from "@/components/FeaturedCodes";
 import Blog from "@/components/Blog";
 import Safety from "@/components/Safety";
 import TextSection from "@/components/TextSection";
+import Awards from "@/components/Awards";
 
 export default function Home() {
   const [click, setClick] = useState(false);
@@ -23,6 +24,7 @@ export default function Home() {
       <TryingSection />
       <TextSection />
       <Blog />
+      <Awards />
       <Footer />
     </main>
   );
