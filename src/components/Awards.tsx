@@ -27,8 +27,8 @@ export default function Awards() {
           <p className="text-slate-400 text-md mt-10">
             By using this promo code, you are eligible for all the rewards
             listed below. Every user who redeems the code will receive the same
-            rewards, regardless of when they decide to use it. Don't miss out on
-            the chance to enjoy these exclusive benefits & perks!
+            rewards, regardless of when they decide to use it. Don&apos;t miss
+            out on the chance to enjoy these exclusive benefits & perks!
           </p>
         </div>
 

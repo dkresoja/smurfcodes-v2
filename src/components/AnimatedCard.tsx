@@ -121,18 +121,20 @@ export function AnimatedCard({ card }: { card: PromoCard }) {
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 "
       }`}
     >
-      <Card className="bg-gradient-to-b from-black to-sky-900 rounded-xl overflow-hidden shadow-lg hover:shadow-cyan-500/20 transition-all duration-300 max-h-fit border-2 border-cyan-800 shadow-cyan-600 mb-6 mx-3 px-4">
-        <CardContent className="p-6 flex flex-col items-center text-center">
+      <Card className="bg-gradient-to-b from-black to-sky-900 rounded-xl overflow-hidden shadow-lg hover:shadow-cyan-500/20 transition-all duration-300 max-h-fit border-2 border-cyan-800 shadow-cyan-600 mb-6 mx-0 md:mx-0 px-2  pb-4 ">
+        <CardContent className="p-0 sm:p-6 flex flex-col items-center text-center">
           <Image
             src={card.logo}
             alt="Platform logo"
             width={250}
             height={50}
-            className="mb-4"
+            className="mb-4 "
           />
-          <h3 className="text-white font-bold mb-2 text-sm">{card.title}</h3>
+          <h3 className="text-white font-bold sm:font-bold mb-2 text-xs sm:text-sm">
+            {card.title}
+          </h3>
           <div className="space-y-1 mb-4">
-            <p className="text-white/80 text-sm">Promo code:</p>
+            <p className="text-white/80 text-sm ">Promo code:</p>
             <CopyButton value={card.promoCode} className="text-white" />
           </div>
           <p className="text-white/60 text-xs mb-1">{card.validUntil}</p>

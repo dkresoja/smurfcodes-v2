@@ -6,8 +6,8 @@ export default function Footer() {
   const NAVBAR_DATA = {
     links: [
       { name: "Home", href: "/" },
-      { name: "Promo codes", href: "/contact" },
-      { name: "Giveaways", href: "/about" },
+      { name: "Promo codes", href: "/promo-codes" },
+      { name: "Giveaways", href: "/giveaway" },
       { name: "Blog", href: "/blog" },
     ],
   };

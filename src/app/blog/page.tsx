@@ -3,6 +3,7 @@ import BlogLanding from "@/components/BlogLanding";
 import BlogHeader from "@/components/BlogHeader";
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 export default function PromoCodesPage() {
   const [click, setClick] = useState(false);
   const handleClickHamburger = () => {
@@ -17,6 +18,7 @@ export default function PromoCodesPage() {
       </div>
 
       <BlogLanding />
+      <Footer />
     </main>
   );
 }

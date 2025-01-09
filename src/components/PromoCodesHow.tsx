@@ -3,12 +3,16 @@ import React from "react";
 const PromoCodesHow = () => {
   return (
     <div className="w-full  bg-black py-20  h-full flex justify-center">
-      <div className="w-3/4 h-auto flex flex-col gap-40 items-start ">
-        <div className="">
+      <div className="w-full lg:w-3/4 h-auto flex flex-col gap-40 items-start ">
+        <div className="px-4">
           {" "}
-          <span className="flex gap-8 pb-10">
-            <h2 className="xl:text-7xl font-extrabold text-cyan-500">{"//"}</h2>
-            <h2 className="xl:text-7xl">How to apply promo codes</h2>
+          <span className="flex gap-4 xl:gap-8 pb-10">
+            <h2 className="xl:text-7xl text-3xl lg:text-5xl font-extrabold text-cyan-500">
+              {"//"}
+            </h2>
+            <h2 className="xl:text-7xl text-3xl lg:text-5xl">
+              How to apply promo codes
+            </h2>
           </span>
           <span className="">
             <p className="xl:text-3xl text-gray-400 ">

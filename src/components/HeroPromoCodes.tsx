@@ -6,11 +6,11 @@ const HeroPromoCodes = () => {
   return (
     <section className="relative h-screen flex items-center justify-between bg-gradient-to-r from-gray-900 to-gray-800 w-full">
       <div className="text-center z-10 xl:ml-24 ">
-        <span className="flex text-center justify-center mt-24 mb-2 sm:mb-0 mr-0 sm:mr-4">
-          <h1 className="text-4xl font-bold mb-4 sm:text-5xl xl:text-7xl ">
+        <span className="flex text-center justify-center mt-0 lg:mt-24 mb-2 sm:mb-0 mr-0 sm:mr-4">
+          <h1 className="text-5xl font-bold mb-4 sm:text-5xl lg:text-6xl xl:text-7xl ">
             Promo code
           </h1>
-          <h1 className="text-4xl  sm:text-5xl font-extrabold bg-gradient-to-tr from-white to-cyan-500  bg-clip-text text-transparent xl:text-7xl">
+          <h1 className="text-5xl  sm:text-5xl lg:text-6xl font-extrabold bg-gradient-to-tr from-white to-cyan-500  bg-clip-text text-transparent xl:text-7xl">
             s
           </h1>
         </span>

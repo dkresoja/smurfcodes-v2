@@ -1,5 +1,6 @@
 "use client";
 
+import Footer from "@/components/Footer";
 import GiveawayPage from "@/components/giveaway-page";
 import GiveawayHero from "@/components/GiveawayHero";
 import Navbar from "@/components/Navbar";
@@ -17,6 +18,7 @@ export default function PromoCodesPage() {
         <hr></hr>
       </div>
       <GiveawayPage />
+      <Footer />
     </main>
   );
 }

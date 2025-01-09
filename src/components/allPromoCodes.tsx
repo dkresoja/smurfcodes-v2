@@ -113,9 +113,14 @@ const promoCards: PromoCard[] = [
 export default function PromoCarousel() {
   return (
     <div className="w-full px-4 py-8 flex justify-center bg-black">
-      <div className="grid w-3/4 gap-6 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
+      <div className="grid grid-cols-2 w-full md:w-2/3 gap-4 sm:gap-6 lg:grid-cols-3 xl:grid-cols-4 ">
         {promoCards.map((card, i) => (
-          <AnimatedCard key={i + 1} card={card} />
+          <div
+            key={i}
+            className="object-cover hover:scale-105 transition-all duration-10"
+          >
+            <AnimatedCard key={i + 1} card={card} />
+          </div>
         ))}
       </div>
     </div>
