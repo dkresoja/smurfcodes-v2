@@ -1,6 +1,23 @@
 import ContactForm from "@/components/contact-form";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Contact Us",
+  description: "Get in touch with us. We'd love to hear from you!",
+  openGraph: {
+    title: "Contact Us | My Website",
+    description: "Get in touch with us. We'd love to hear from you!",
+    url: "https://mywebsite.com/contact",
+    images: [
+      {
+        url: "https://mywebsite.com/contact-og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
+};
 
 export default function ContactPage() {
   return (
