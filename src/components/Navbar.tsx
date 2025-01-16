@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Button } from "./ui/button";
 import { MobileMenu } from "./MobileMenu";
 import { Menu } from "lucide-react";
+import Link from "next/link";
 
 const NAVBAR_DATA = {
   links: [
@@ -74,9 +75,12 @@ export function Navbar() {
           </ul>
         </div>
         <div className="flex items-center max-lg:hidden">
-          <Button className="bg-black text-cyan-500 border-2 font-bold border-cyan-600">
-            White mode
-          </Button>
+          <Link href="/contact">
+            {" "}
+            <Button className="bg-black text-cyan-500 border-2 font-bold border-cyan-600">
+              Contact us
+            </Button>
+          </Link>
         </div>
         <div className="hidden max-lg:flex white items-center px-4">
           <Button

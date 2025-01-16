@@ -16,12 +16,13 @@ const HeroPromoCodes = () => {
         </span>
 
         <p className=" sm:text-xl text-base mb-8 max-w-2xl mx-4  text-slate-300 font-normal">
-          Welcome to our blog – your ultimate destination for everything about
-          Counter-Strike 2! Whether you’re a seasoned pro or a fresh recruit,
-          our blog is packed with expert insights, strategy guides, in-depth
-          analysis, and the latest updates from the world of CS2. Dive into our
-          content to sharpen your skills, stay ahead of the meta, and discover
-          the tips and tricks that will elevate your gameplay.
+          Welcome to our Promo Codes page – your ultimate source for the best
+          Counter-Strike 2 rewards! Here, you’ll find exclusive CS2 promo codes
+          for free daily cases, bonus coins, and premium skins. Whether you’re
+          upgrading your inventory or boosting gameplay, our codes give you the
+          edge without deposits or conditions. Updated regularly, this page
+          keeps you ahead with the latest codes. Don’t miss out – claim your
+          rewards below and dominate the battlefield!
         </p>
         <Image
           src="/photos/strelice.png"

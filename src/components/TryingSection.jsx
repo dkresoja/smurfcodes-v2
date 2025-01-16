@@ -6,9 +6,9 @@ export default function TryingSection() {
   return (
     <section className=" bg-gradient-to-b  to-black  text-white py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 lg:px-16 relative overflow-hidden w-full">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-around xl:w-4/5 ">
-        <div className="md:w-1/2 xl:ml-20 mb-8 mt-8 md:mb-0 pr-0 md:pr-8  xl:shadow-cyan-800 xl:shadow-xl xl:px-4 xl:py-4 ">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 leading-tight">
-            Every Week You Can <span className="text-cyan-400">Win</span>
+        <div className="md:w-1/2  xl:ml-20 mb-8 mt-8 md:mb-0 pr-0 md:pr-8  xl:shadow-cyan-800 xl:shadow-xl xl:px-4 xl:py-4 ">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 leading-tight text-nowrap lg:text-wrap">
+            Every Week <span className="text-cyan-400">Win</span>
             <br />
             <span className="text-cyan-400">Exclusive</span> Skins
           </h2>

@@ -94,10 +94,10 @@ const promoCards: PromoCard[] = [
   },
   {
     id: 11,
-    site: "https://datdrop.com/p/CS2FR",
-    logo: "/photos/site-logos/datdrop.png",
-    title: "FREE CASES & DEPOSIT BONUSES",
-    promoCode: "CS2FR",
+    site: "https://hellpromo.com/f13015573",
+    logo: "/photos/site-logos/hellcase.png",
+    title: "UP TO 10% ON DEPOSITS BONUS",
+    promoCode: "13015573",
     validUntil: "Valid as today",
   },
   {

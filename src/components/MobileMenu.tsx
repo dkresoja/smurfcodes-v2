@@ -3,6 +3,7 @@
 import React from "react";
 import { Button } from "./ui/button";
 import { X } from "lucide-react";
+import Link from "next/link";
 
 const NAVBAR_DATA = {
   links: [
@@ -59,11 +60,13 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
               ))}
             </ul>
           </nav>
-          <div className="p-4">
-            <Button className="w-full bg-black text-cyan-500 border-2 font-bold border-cyan-600">
-              White mode
-            </Button>
-          </div>
+          <Link href="/contact">
+            <div className="p-4">
+              <Button className="w-full bg-black text-cyan-500 border-2 font-bold border-cyan-600">
+                Contact us
+              </Button>
+            </div>
+          </Link>
         </div>
       </div>
     </>

@@ -57,7 +57,7 @@ export default function GiveawayPage() {
   ];
 
   useEffect(() => {
-    const endDate = new Date("2024-12-31T12:00:00");
+    const endDate = new Date("2025-01-15T12:00:00");
 
     const timer = setInterval(() => {
       const now = new Date();
@@ -127,7 +127,7 @@ export default function GiveawayPage() {
                       <span className="text-5xl font-bold text-white mb-2">
                         {item.value.toString().padStart(2, "0")}
                       </span>
-                      <span className="text-sm uppercase tracking-wide text-blue-100">
+                      <span className="text-sm uppercase tracking-wide text-blue-100 ">
                         {item.label}
                       </span>
                     </div>

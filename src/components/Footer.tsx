@@ -28,7 +28,7 @@ export default function Footer() {
           />
           <span className="flex font-bold text-lg ml-2">
             <h2 className="text-cyan-500">Shark</h2>
-            <h2>Codes</h2>
+            <h2 className="text-white">Codes</h2>
           </span>
         </div>
         <nav className="flex flex-wrap justify-center gap-4  md:mb-0 w-full px-4 sm:justify-center md:gap-8 max-w-4xl">
@@ -55,7 +55,7 @@ export default function Footer() {
       </div>
       {/* Donji deo */}
       <div className="text-center mt-8">
-        <p className="text-gray-400 text-sm sm:text-xs">
+        <p className="text-gray-400 font-bold text-sm sm:text-xs">
           © 2024 Sharkcodes.com
         </p>
       </div>

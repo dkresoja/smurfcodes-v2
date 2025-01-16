@@ -9,19 +9,19 @@ export default function FeatureCards() {
       icon: Star,
       title: "Rewards",
       description:
-        "The best credit cards offer some tantalizing combinations of promotions and prizes.",
+        "Get amazing rewards with free coins, free skins, prizes and bonuses from us.",
     },
     {
       icon: Shield,
       title: "100% Secured",
       description:
-        "We take proactive steps make sure your information and transactions are secure.",
+        "We take proactive steps to make sure your information and transactions are secure.",
     },
     {
       icon: Gift,
       title: "Daily Free Gift",
       description:
-        "Enjoy a surprise gift every day! Log in daily to claim your free reward and enhance your experience.",
+        "Get a daily surprise from our partner sites! Open daily free cases by using our promo codes.",
     },
   ];
 
@@ -59,7 +59,7 @@ export default function FeatureCards() {
                   <div
                     className={`
                   mb-6 inline-flex items-center justify-center 
-                  rounded-xl bg-gray-800/50 p-3.5
+                  rounded-xl bg-gray-800/50 p-3.5 
                   backdrop-blur-sm ring-1 ring-gray-700/50 
                   group-hover:ring-[#06b6d4]/50 transition-all duration-300
                   

@@ -81,16 +81,19 @@ export default function Hero() {
   return (
     <section className="relative h-screen flex items-center justify-center bg-gradient-to-r from-gray-900 to-gray-800 w-full">
       <div className="text-center z-10 px-4 sm:px-6 lg:px-8">
-        <h1 className="text-4xl sm:text-5xl font-bold mb-4">FREE CS SKINS</h1>
-        <p className="text-base sm:text-xl mb-8 max-w-2xl mx-auto">
-          You can play for free at csgo bet sites that require no deposit
-          bonuses. Furthermore, you can explore the same selection with more
-          generous deals than other players, open csgo free cases and enjoy the
-          thrill of winning csgo free skins without risking your cash.
+        <h1 className="text-4xl sm:text-5xl font-bold mb-8   ">FREE REWARDS</h1>
+        <p className="text-base sm:text-xl mb-8 max-w-2xl mx-auto text-gray-200">
+          Welcome to <strong>SharkCodes</strong>, your ultimate destination for
+          <strong> CSGO promo codes</strong>! Unlock incredible rewards with
+          ease <strong>free daily cases</strong> from our partnered sites,
+          instant coins to kickstart your gameplay, exclusive skins to elevate
+          your inventory, and exciting giveaways.{" "}
+          <strong>No deposits required</strong>, no conditions—just pure
+          rewards, every day. Dive in and start claiming your treasures now!
         </p>
         <Link href="/promo-codes" passHref>
-          <Button className="bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded">
-            Get Started
+          <Button className="bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded cursor-grab">
+            Win prize
           </Button>
         </Link>
         <div className="flex justify-center gap-8 sm:gap-14 mt-16 sm:mt-32">

@@ -5,17 +5,17 @@ const BlogHeader = () => {
   return (
     <section className="relative h-screen flex items-center justify-between bg-gradient-to-r from-gray-900 to-gray-800 w-full">
       <div className="text-center z-10 xl:ml-24">
-        <span className="flex text-center justify-center mt-24">
-          <h1 className="text-7xl font-bold mb-4">Bl</h1>
-          <h1 className="text-7xl font-extrabold bg-gradient-to-tr from-white to-slate-300  bg-clip-text text-transparent">
-            o
+        <span className="flex text-center justify-center mt-0 lg:mt-24 mb-2 sm:mb-0 mr-0 sm:mr-4">
+          <h1 className="text-5xl font-bold mb-4 sm:text-5xl lg:text-6xl xl:text-7xl ">
+            Blo
           </h1>
-          <h1 className="text-7xl font-extrabold bg-gradient-to-tr from-white to-cyan-500  bg-clip-text text-transparent">
+
+          <h1 className="text-5xl  sm:text-5xl lg:text-6xl font-extrabold bg-gradient-to-tr from-white to-cyan-500  bg-clip-text text-transparent xl:text-7xl">
             g
           </h1>
         </span>
 
-        <p className="text-xl mb-8 max-w-2xl mx-auto text-white font-normal">
+        <p className="sm:text-xl text-base mb-8 max-w-2xl mx-4  text-slate-300 font-normal">
           Welcome to our blog – your ultimate destination for everything about
           Counter-Strike 2! Whether you’re a seasoned pro or a fresh recruit,
           our blog is packed with expert insights, strategy guides, in-depth
@@ -30,7 +30,6 @@ const BlogHeader = () => {
           alt="Arrows"
         ></Image>
       </div>
-      <div className="absolute inset-0 bg-black opacity-50"></div>
 
       <Image
         src="/photos/blogheader.png"
