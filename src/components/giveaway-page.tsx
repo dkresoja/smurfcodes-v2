@@ -97,7 +97,7 @@ export default function GiveawayPage() {
               {/* Steam Item Section */}
               <div className="relative aspect-video w-full overflow-hidden rounded-lg">
                 <Image
-                  src="/photos/smurfcodes.png"
+                  src="/photos/Smurfcodes.png"
                   alt="Steam Item"
                   fill
                   className="object-cover"
