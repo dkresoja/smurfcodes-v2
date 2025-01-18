@@ -4,45 +4,45 @@ export const blogPosts = [
     title: "CSGO  SKINS ",
     img: "/photos/blogpost1.png",
     description:
-      " Discover the essential steps to creating a robust and scalable design system for your project.",
+      "Explore CS:GO skins, from rare designs to trading tips, and upgrade your inventory with premium styles.",
     author: "Jane Smith",
-    date: "April 15, 2023",
+    date: "December 21, 2024",
   },
   {
     url: "/blog/csgocases",
     title: "CSGO CASES",
     img: "/photos/blogpost2.png",
     description:
-      " Discover the essential steps to creating a robust and scalable design system for your project.",
+      "Unbox CS:GO cases and discover rare skins, knives, and gloves. Learn tips to maximize your rewards.",
     author: "Jane Smith",
-    date: "April 15, 2023",
+    date: "December 21, 2024",
   },
   {
     url: "/blog/csgoagents",
     title: "CSGO AGENTS",
     img: "/photos/blogpost3.png",
     description:
-      " Discover the essential steps to creating a robust and scalable design system for your project.",
+      "Learn about CS:GO agents and how their unique designs personalize your gameplay.",
     author: "Jane Smith",
-    date: "April 15, 2023",
+    date: "December 21, 2024",
   },
   {
     url: "/blog/csgogambling",
     title: "CSGO GAMBLING",
     img: "/photos/blogpost4.png",
     description:
-      " Discover the essential steps to creating a robust and scalable design system for your project.",
+      "Explore CS:GO gambling with tips on platforms, strategies, and responsible play.",
     author: "Jane Smith",
-    date: "April 15, 2023",
+    date: "December 21, 2024",
   },
   {
     url: "/blog/csgogloves",
     title: "CSGO GLOVES",
     img: "/photos/blogpost5.png",
     description:
-      " Discover the essential steps to creating a robust and scalable design system for your project.",
+      "Discover rare CS:GO gloves, popular patterns, and how they add style to your loadout.",
     author: "Jane Smith",
-    date: "April 15, 2023",
+    date: "December 21, 2024",
   },
 ];
 

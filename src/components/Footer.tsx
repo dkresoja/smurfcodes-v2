@@ -27,7 +27,7 @@ export default function Footer() {
             height={40}
           />
           <span className="flex font-bold text-lg ml-2">
-            <h2 className="text-cyan-500">Shark</h2>
+            <h2 className="text-cyan-500">Smurf</h2>
             <h2 className="text-white">Codes</h2>
           </span>
         </div>
@@ -56,7 +56,7 @@ export default function Footer() {
       {/* Donji deo */}
       <div className="text-center mt-8">
         <p className="text-gray-400 font-bold text-sm sm:text-xs">
-          © 2024 Sharkcodes.com
+          © 2024 Smurfcodes.com
         </p>
       </div>
     </footer>

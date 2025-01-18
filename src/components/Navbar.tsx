@@ -56,7 +56,7 @@ export function Navbar() {
             height={250}
           />
           <span className="flex font-bold text-2xl">
-            <p className="text-cyan-500">Shark</p>
+            <p className="text-cyan-500">Smurf</p>
             <p>Codes</p>
           </span>
         </div>
