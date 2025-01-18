@@ -57,7 +57,7 @@ export default function GiveawayPage() {
   ];
 
   useEffect(() => {
-    const endDate = new Date("2025-01-15T12:00:00");
+    const endDate = new Date("2025-01-28T12:00:00");
 
     const timer = setInterval(() => {
       const now = new Date();
