@@ -35,9 +35,6 @@ export const metadata: Metadata = {
       "Get the latest CS2 promo codes and participate in exclusive giveaways. Enhance your gaming experience with free skins, cases, and more!",
     images: ["https://cs2free.com/images/promo-codes-og.jpg"],
   },
-  icons: {
-    icon: "/photos/new-logo1.png",
-  },
 };
 
 export default function PromoCodesPage() {
