@@ -21,9 +21,14 @@ export const metadata: Metadata = {
     template: "%s | SmurfCodes",
   },
   description:
-    "SmurfCodes offers the latest Counter-Strike 2 (CS2) promo codes, guides, and resources to enhance your gaming experience and get free skins.",
+    "SmurfCodes provides the latest Counter-Strike 2 (CS2) promo codes, expert guides, and top resources to unlock free skins, level up your gameplay, and dominate the competition.",
   keywords: [
     "CS2",
+    "free cs go skins",
+    "free csgo skins",
+    "csgo promo codes",
+    "cs2 free skins",
+    "cs2 promo codes",
     "Counter-Strike 2",
     "promo codes",
     "free skins",
@@ -73,11 +78,6 @@ export const metadata: Metadata = {
     shortcut: "/favicon-16x16.png",
     apple: "/apple-touch-icon.png",
   },
-  // manifest: "/site.webmanifest",
-  // verification: {
-  //   google: "your-google-site-verification-code",
-  //   yandex: "your-yandex-verification-code",
-  // },
 };
 
 export default function RootLayout({
