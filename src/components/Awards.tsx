@@ -36,13 +36,13 @@ export default function Awards() {
               icon: <Gift className="h-8 w-8" />,
               title: "Free Daily Cases",
               description:
-                "Get a free csgo cases every day from our partner websites,.",
+                "Get a free csgo cases every day from our partner websites.",
             },
             {
               icon: <Gamepad2 className="h-8 w-8" />,
               title: "Free Coins",
               description:
-                "Get free coins instantly by using the promo code, no deposit required.",
+                "Get free coins instantly by using our promo codes, no deposit required.",
             },
             {
               icon: <Trophy className="h-8 w-8" />,

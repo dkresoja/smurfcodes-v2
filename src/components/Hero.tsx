@@ -83,7 +83,7 @@ export default function Hero() {
       <div className="text-center z-10 px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl sm:text-5xl font-bold mb-8   ">FREE REWARDS</h1>
         <p className="text-base sm:text-xl mb-8 max-w-2xl mx-auto text-gray-200">
-          Welcome to <strong>SharkCodes</strong>, your ultimate destination for
+          Welcome to <strong>SmurfCodes</strong>, your ultimate destination for
           <strong> CSGO promo codes</strong>! Unlock incredible rewards with
           ease <strong>free daily cases</strong> from our partnered sites,
           instant coins to kickstart your gameplay, exclusive skins to elevate
