@@ -6,6 +6,7 @@ import { blogTexts } from "@/constants/index";
 export async function generateStaticParams() {
   return blogTexts.map((blog) => ({
     id: blog.id,
+    title: blog.title,
   }));
 }
 

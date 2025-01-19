@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PromoCodesLayout from "./layout";
 
 export const metadata: Metadata = {
-  title: "Giveaways | SmurfCodes",
+  title: "Giveaways",
   description:
     "Get the latest CS2 promo codes and participate in exclusive giveaways. Enhance your gaming experience with free skins, cases, and more!",
   keywords: [

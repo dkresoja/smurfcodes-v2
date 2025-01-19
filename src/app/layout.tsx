@@ -3,6 +3,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import JsonLd from "@/components/JsonLd";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,8 +18,8 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://smurfcodes.com"),
   title: {
-    default: "SmurfCodes - Your Ultimate CS2 Promo Codes Resource",
-    template: "%s | SmurfCodes",
+    default: "SmurfCodes ",
+    template: "%s - SmurfCodes",
   },
   description:
     "SmurfCodes provides the latest Counter-Strike 2 (CS2) promo codes, expert guides, and top resources to unlock free skins, level up your gameplay, and dominate the competition.",
@@ -96,6 +97,7 @@ export default function RootLayout({
         </body>
       </html>
       <Analytics />
+      <SpeedInsights />
     </>
   );
 }

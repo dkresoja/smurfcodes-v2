@@ -16,7 +16,7 @@ const promoCards: PromoCard[] = [
     id: 1,
     site: "https://plg.bet/?r=CS2FR",
     logo: "/photos/site-logos/csgopolygonlogo.png",
-    title: "FREE 1000 COINS & FREE RAKEBACK",
+    title: "FREE 0.50$ | NO DEPOSIT REQUIRED",
     promoCode: "CS2FR",
     validUntil: "Valid as today",
   },

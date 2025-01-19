@@ -3,12 +3,12 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Contact Us",
+  title: "Contact",
   description: "Get in touch with us. We'd love to hear from you!",
   openGraph: {
-    title: "Contact Us | My Website",
+    title: "Contact | SmurfCodes",
     description: "Get in touch with us. We'd love to hear from you!",
-    url: "https://mywebsite.com/contact",
+    url: "https://smurfcodes.com/contact",
     images: [
       {
         url: "https://mywebsite.com/contact-og-image.jpg",
