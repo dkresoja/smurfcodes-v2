@@ -60,9 +60,14 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  icons: {
-    icon: "/favicon.ico",
-  },
+  icons: [
+    {
+      rel: "icon",
+      type: "image/png",
+      sizes: "48x48",
+      url: "https://smurfcodes.com/favicon.ico",
+    },
+  ],
 };
 
 export default function RootLayout({
