@@ -117,7 +117,7 @@ export default function PromoCarousel() {
         {promoCards.map((card, i) => (
           <div
             key={i}
-            className="object-cover hover:scale-105 transition-all duration-10"
+            className="object-cover hover:scale-105 transition-all duration-500"
           >
             <AnimatedCard key={i + 1} card={card} />
           </div>

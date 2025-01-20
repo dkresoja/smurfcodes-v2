@@ -43,7 +43,7 @@ export default function FeatureCards() {
                 bg-gradient-to-b border-2 border-cyan-800 from-black to-gray-800
                 p-8 transition-all duration-500
                 hover:shadow-2xl hover:shadow-[#06b6d4]/20 
-                hover:-translate-y-1
+                hover:-translate-y-1 cursor-default
                 ${
                   inView
                     ? "opacity-100 translate-y-0"

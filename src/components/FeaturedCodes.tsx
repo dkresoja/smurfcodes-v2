@@ -49,7 +49,7 @@ export default function PromoCarousel() {
   return (
     <div className="w-full px-4 py-8 xl:pt-0  xl:pb-20 bg-black  mx-auto xl:flex xl:justify-center">
       <div className="xl:w-2/3">
-        <span className="text-3xl xl:text-4xl xl:mb-12 font-bold text-white mb-6 mt-12 px-4 flex gap-2">
+        <span className="text-3xl xl:text-4xl xl:mb-12 font-bold text-white mb-6 mt-12 px-4 flex gap-2 ">
           <h2>Our</h2>
           <h2 className="text-cyan-500">Popular</h2>
           <h2>Codes</h2>
@@ -63,12 +63,17 @@ export default function PromoCarousel() {
           className="w-full touch-pan-y"
         >
           <CarouselContent className="-ml-2 md:-ml-4">
-            {promoCards.map((card) => (
+            {promoCards.map((card, i) => (
               <CarouselItem
                 key={card.id}
-                className="pl-2 md:pl-4 sm:basis-1/2 md:basis-1/3 lg:basis-1/4"
+                className="pl-2 md:pl-4 sm:basis-1/2 md:basis-1/3 lg:basis-1/4 "
               >
-                <AnimatedCard card={card} />
+                <div
+                  key={i}
+                  className="object-cover hover:scale-105 transition-all duration-500 pt-2 px-2 opacity-80 hover:opacity-100"
+                >
+                  <AnimatedCard card={card} />
+                </div>
               </CarouselItem>
             ))}
           </CarouselContent>

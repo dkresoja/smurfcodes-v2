@@ -3,7 +3,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import JsonLd from "@/components/JsonLd";
 import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import Head from "next/head";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -88,6 +88,18 @@ export default function RootLayout({
 }>) {
   return (
     <>
+      <Head>
+        <meta
+          property="og:image"
+          content="/photos/opengraph-image.png" // Slika iz `public` direktorijuma
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta
+          property="og:image:alt"
+          content="SmurfCodes - Your Ultimate CS2 Promo Codes Resource"
+        />
+      </Head>
       <html lang="en">
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
@@ -97,7 +109,6 @@ export default function RootLayout({
         </body>
       </html>
       <Analytics />
-      <SpeedInsights />
     </>
   );
 }

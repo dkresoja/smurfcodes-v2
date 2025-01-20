@@ -47,23 +47,28 @@ export function Navbar() {
           scrolled ? "bg-black/65 backdrop-blur-[0.60vh]" : "bg-transparent"
         }`}
       >
-        <div className="w-auto flex justify-start items-center">
-          <Image
-            src="/photos/new-logo1.png"
-            className="w-18 h-14"
-            alt="SharkCodes Logo"
-            width={110}
-            height={250}
-          />
-          <span className="flex font-bold text-2xl">
-            <p className="text-cyan-500">Smurf</p>
-            <p>Codes</p>
-          </span>
-        </div>
+        <Link href="/">
+          <div className="w-auto flex justify-start items-center transition-transform  duration-900 hover:scale-105">
+            <Image
+              src="/photos/new-logo1.png"
+              className="w-18 h-14 "
+              alt="SharkCodes Logo"
+              width={110}
+              height={250}
+            />
+            <span className="flex font-bold text-2xl">
+              <p className="text-cyan-500">Smurf</p>
+              <p>Codes</p>
+            </span>
+          </div>
+        </Link>
         <div className="flex z-10 w-auto justify-center max-lg:hidden">
           <ul className="flex gap-12 items-center">
             {NAVBAR_DATA.links.map((link, i) => (
-              <li key={i}>
+              <li
+                key={i}
+                className="transition-transform  duration-900 hover:scale-105"
+              >
                 <a
                   href={link.href}
                   className="text-white font-bold text-xl justify-center hover:text-cyan-400"
@@ -77,7 +82,7 @@ export function Navbar() {
         <div className="flex items-center max-lg:hidden">
           <Link href="/contact">
             {" "}
-            <Button className="bg-black text-cyan-500 border-2 font-bold border-cyan-600">
+            <Button className="bg-black text-cyan-500 border-2 font-bold border-cyan-600 transition-transform  duration-900 hover:scale-105">
               Contact us
             </Button>
           </Link>

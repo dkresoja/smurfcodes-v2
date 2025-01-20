@@ -92,7 +92,7 @@ export default function Hero() {
           rewards, every day. Dive in and start claiming your treasures now!
         </p>
         <Link href="/promo-codes" passHref>
-          <Button className="bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded cursor-grab">
+          <Button className="bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded cursor-pointer transition-all duration-900 hover:scale-105">
             Win prize
           </Button>
         </Link>
