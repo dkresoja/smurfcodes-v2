@@ -3,7 +3,6 @@ import "./globals.css";
 import type { Metadata } from "next";
 import JsonLd from "@/components/JsonLd";
 import { Analytics } from "@vercel/analytics/react";
-import Head from "next/head";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -44,20 +43,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  openGraph: {
-    type: "website",
-    locale: "en_US",
-    url: "https://smurfcodes.com",
-    siteName: "SmurfCodes",
-    images: [
-      {
-        url: "https://smurfcodes.com/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "SmurfCodes - Your Ultimate CS2 Promo Codes Resource",
-      },
-    ],
-  },
+
   twitter: {
     card: "summary_large_image",
     site: "@smurfcodes",
@@ -88,18 +74,6 @@ export default function RootLayout({
 }>) {
   return (
     <>
-      <Head>
-        <meta
-          property="og:image"
-          content="/photos/opengraph-image.png" // Slika iz `public` direktorijuma
-        />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta
-          property="og:image:alt"
-          content="SmurfCodes - Your Ultimate CS2 Promo Codes Resource"
-        />
-      </Head>
       <html lang="en">
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
