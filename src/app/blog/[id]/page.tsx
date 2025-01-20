@@ -1,7 +1,36 @@
 import BlogDynamic from "@/components/BlogDynamic";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-import { blogTexts } from "@/constants/index";
+import { blogTexts, blogPosts } from "@/constants/index";
+
+import { Metadata } from "next";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}): Promise<Metadata> {
+  const resolvedParams = await params;
+  const id = resolvedParams.id;
+
+  const blogPost = await blogTexts.find((blog) => blog.id === id);
+  const blogOpenGraph = await blogPosts.find((blogPost) => blogPost.id === id);
+  const imageUrl: string | undefined = blogOpenGraph?.img;
+
+  // Dodajte podrazumevanu vrednost
+  const safeImageUrl: string | URL = imageUrl || "/opengraph-image.jpg";
+
+  return {
+    title: blogPost?.title,
+    openGraph: {
+      images: [
+        {
+          url: safeImageUrl,
+        },
+      ],
+    },
+  };
+}
 
 export async function generateStaticParams() {
   return blogTexts.map((blog) => ({

@@ -1,5 +1,6 @@
 export const blogPosts = [
   {
+    id: "csgoskins",
     url: "/blog/csgoskins",
     title: "CSGO  SKINS ",
     img: "/photos/blogpost1.png",
@@ -9,6 +10,7 @@ export const blogPosts = [
     date: "December 21, 2024",
   },
   {
+    id: "csgocases",
     url: "/blog/csgocases",
     title: "CSGO CASES",
     img: "/photos/blogpost2.png",
@@ -18,6 +20,7 @@ export const blogPosts = [
     date: "December 21, 2024",
   },
   {
+    id: "csgoagents",
     url: "/blog/csgoagents",
     title: "CSGO AGENTS",
     img: "/photos/blogpost3.png",
@@ -27,6 +30,7 @@ export const blogPosts = [
     date: "December 21, 2024",
   },
   {
+    id: "csgogambling",
     url: "/blog/csgogambling",
     title: "CSGO GAMBLING",
     img: "/photos/blogpost4.png",
@@ -36,6 +40,7 @@ export const blogPosts = [
     date: "December 21, 2024",
   },
   {
+    id: "csgogloves",
     url: "/blog/csgogloves",
     title: "CSGO GLOVES",
     img: "/photos/blogpost5.png",
