@@ -11,6 +11,7 @@ import {
   useInView,
 } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
+
 import Link from "next/link";
 
 function StatItem({ target, label }: { target: number; label: string }) {

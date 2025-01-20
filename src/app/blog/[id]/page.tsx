@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import { blogTexts, blogPosts } from "@/constants/index";
 
 import { Metadata } from "next";
+import { notFound } from "next/navigation";
 
 export async function generateMetadata({
   params,
@@ -54,7 +55,7 @@ const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
 
   // If blog is not found, display an error
   if (!blog) {
-    return <div>Error: Blog not found</div>;
+    return notFound();
   }
 
   // If blog is found, assign values
