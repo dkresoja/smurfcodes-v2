@@ -82,7 +82,9 @@ export default function Hero() {
   return (
     <section className="relative h-screen flex items-center justify-center bg-gradient-to-r from-gray-900 to-gray-800 w-full">
       <div className="text-center z-10 px-4 sm:px-6 lg:px-8">
-        <h1 className="text-4xl sm:text-5xl font-bold mb-8   ">FREE REWARDS</h1>
+        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-8   ">
+          CSGO GAMBLING WEBSITES
+        </h1>
         <p className="text-base sm:text-xl mb-8 max-w-2xl mx-auto text-gray-200">
           Welcome to <strong>SmurfCodes</strong>, your ultimate destination for
           <strong> CSGO promo codes</strong>! Unlock incredible rewards with
