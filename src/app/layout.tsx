@@ -67,8 +67,13 @@ export const metadata: Metadata = {
         sizes: "48x48",
         type: "image/x-icon",
       },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "images/png" },
     ],
   },
+
   manifest: "/site.webmanifest",
 };
 
