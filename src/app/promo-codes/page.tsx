@@ -35,10 +35,6 @@ export const metadata: Metadata = {
       "Discover the latest CS2 promo codes for free skins, cases, and more. Learn how to redeem codes and enhance your Counter-Strike 2 experience with CS2FREE.",
     images: ["https://cs2free.com/images/cs2-promo-codes-og.jpg"],
   },
-  icons: {
-    icon: "/photos/new-logo1.png",
-    apple: "/apple-touch-icon.png",
-  },
 };
 
 export default function PromoCodesPage() {
