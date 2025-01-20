@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: "%s - SmurfCodes",
   },
   description:
-    "SmurfCodes provides the latest Counter-Strike 2 (CS2) promo codes, expert guides, and top resources to unlock free skins, level up your gameplay, and dominate the competition.",
+    "Here you can find best active Counter-Strike 2 (CS2) promo codes, expert guides, and top resources to unlock free CS2 skins, level up your inventory, and unlock full potential.",
   keywords: [
     "CS2",
     "free cs go skins",
