@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://smurfcodes.com"),
   title: {
-    default: "SmurfCodes ",
+    default: "SmurfCodes - Exclusive CS2 Promo Codes",
     template: "%s - SmurfCodes",
   },
   description:
