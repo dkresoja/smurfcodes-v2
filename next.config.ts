@@ -11,7 +11,7 @@ const nextConfig: NextConfig = {
             value: "www.smurfcodes.com",
           },
         ],
-        destination: "https://smurfcodes.com/:path*",
+        destination: "https://www.smurfcodes.com/:path*",
         permanent: true,
       },
     ];
