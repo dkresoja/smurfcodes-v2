@@ -17,15 +17,17 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://smurfcodes.com"),
   title: {
-    default: "SmurfCodes - Exclusive CS2 Promo Codes",
+    default: "SmurfCodes - Exclusive CSGO Promo Codes",
     template: "%s - SmurfCodes",
   },
   description:
-    "Here you can find best active promo codes, csgo gambling sites, and top resources to unlock free CS2 skins and level up your inventory",
+    "Here you can find best active promo codes, csgo gambling sites, and top resources to unlock CSGO free skins and level up your inventory",
   keywords: [
     "CS2",
     "free cs go skins",
     "free csgo skins",
+    "csgo free skins",
+
     "csgo promo codes",
     "cs2 free skins",
     "cs2 promo codes",
